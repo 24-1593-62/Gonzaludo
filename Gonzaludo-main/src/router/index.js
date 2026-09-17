@@ -70,7 +70,7 @@ const router = createRouter({
      {
       path: '/sample-vmodel',
       name: 'samplevmodel',
-      component: SampleVModel
+      component: SampleVmodel
     },
 
   ]

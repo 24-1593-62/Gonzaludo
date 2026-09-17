@@ -10,7 +10,7 @@ import Contact from '../views/Contact.vue'
 import PortalLogin from '../views/PortalLogin.vue'
 import SampleData from '../views/SampleData.vue'
 import SampleMethods from '../views/SampleMethods.vue'
-import SampleVModel from '../views/SampleVmodel.vue/index.js'
+import SampleVModel from '../views/SampleVmodel.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -70,7 +70,7 @@ const router = createRouter({
      {
       path: '/sample-vmodel',
       name: 'samplevmodel',
-      component: SampleVmodel
+      component: SampleVModel
     },
 
   ]
